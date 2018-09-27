@@ -1,0 +1,88 @@
+1
+>>> a=['robben','messi','ronaldo','10','20']
+>>> a	  
+['robben', 'messi', 'ronaldo', '10', '20']
+
+2
+z=['google','apple','facebook','microsoft','tesla']
+ a.append(z)	  
+>>> a	  
+['robben', 'messi', 'ronaldo', '10', '20', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
+
+3
+>>> len(a)	  
+6
+
+4
+>>> b=['32','34','2','12','45']	  
+>>> b.sort()	  
+>>> b	  
+['12', '2', '32', '34', '45']
+
+5
+>>> s=['1','2','5','6']	  
+>>> t=['3','4','7','9']	 
+>>> z=s=t 
+>>> z	  
+['1', '2', '5', '6', '3', '4', '7', '9']
+>>> z.sort()	  
+>>> z	  
+['1', '2', '3', '4', '5', '6', '7', '9']
+
+6
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9] 
+countodd = 0
+counteven = 0
+for x in numbers:
+        if not x % 2:
+    	     counteven+=1
+        else:
+    	     countodd+=1
+print("Number of even numbers :",counteven)
+print("Number of odd numbers :",countodd)
+OUTPUT
+Number of even numbers : 4                                                                                    
+Number of odd numbers : 5 
+
+TUPLES
+1
+>>> a	  
+['robben', 'messi', 'ronaldo', '10', '20', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
+>>> a.reverse()	  
+>>> a	  
+[['google', 'apple', 'facebook', 'microsoft', 'tesla'], '20', '10', 'ronaldo', 'messi', 'robben']
+>>> 
+
+2
+>>> b		  
+['12', '2', '32', '34', '45']
+>>> 	  
+>>> min(b)	  
+'12'
+>>> max(b)	  
+'45'
+
+STRINGS
+1
+>>> r="messi"
+>>> r.upper()
+	  
+'MESSI'
+
+2
+>>> a
+	  
+[['google', 'apple', 'facebook', 'microsoft', 'tesla'], '20', '10', 'ronaldo', 'messi', 'robben']
+
+r=['messi']
+
+ a=r	  
+>>> a.isalnum()
+	  
+True
+
+3
+x=["Hello World"]
+x.replace("World","Shukal")
+x
+'Hello Shukal'
