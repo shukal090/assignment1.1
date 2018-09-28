@@ -1,23 +1,29 @@
-1
+Q.1- Print anything you want on screen. 
 print('hello')
 hello
 
-2
-print('acad',"+",'view')
+Q.2- Join two strings using '+'.E.g.-"Acad"+"View”
+s="acad"+"view"
+print(s)
 	  
-acad + view
+Q.3- Take the input of 3 variables x, y and z . Print their values on screen. valu
+x=input('enter the value of x')
+y=input('enter the value of y')
+z=input('enter the value of z')
 
-3
- print('x is 10','y is 20','z is 30')
+ print(x,y,z)
 	  
 x is 10 y is 20 z is 30
 
-4
->>> print("lets get started")
-	  
-lets get started
+Q.4- Print “Let’s get started” on screen.
 
-5
+
+>>> print("let's get started")
+	  
+
+let's get started
+
+5 Print the following values using placeholders.s=”Acadview”course=”Python”fees=5000 
 send=('%s="%s"')
 	  
 >>> send%("s","Acadview")
@@ -31,16 +37,17 @@ send=('%s="%s"')
 course="python"
 
 >>> send=('%s=%s')
-6
-print("enter the radius of circle")
-radius=int(input())
-print()
-ans=3.14*(radius*radius)
-print(ans)
-
-	  
 >>> send%('fess','5000')
 	  
 fess=5000
 
 6
+Find the area of circle pi = 3.14 Take radius as input from userPrint the area of circle
+
+print("enter the radius of circle")
+radius=int(input())
+print(radius)
+ans=3.14*(radius*radius)
+print(ans)
+
+	  
