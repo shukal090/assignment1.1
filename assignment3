@@ -1,6 +1,6 @@
 Q.1- Create a list with user defined inputs. 
->>> a=['robben','messi','ronaldo','10','20']
->>> a	  
+>>> a=robben messi ronaldo 10 20
+>>> print(a)	  
 ['robben', 'messi', 'ronaldo', '10', '20']
 
  Q.2- Add the following list to above created list:[‘google’,’apple’,’facebook’,’microsoft’,’tesla’]
@@ -11,9 +11,8 @@ z=['google','apple','facebook','microsoft','tesla']
 ['robben', 'messi', 'ronaldo', '10', '20', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
 
 Q.3 - Count the number of time an object occurs in a list.
->>> len(a)	  
-6
-
+>>> print(lst.count('messi'))
+1
 
 Q.4 - create a list with numbers and sort it in ascending order.
 >>> b=['32','34','2','12','45']	  
