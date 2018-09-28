@@ -1,25 +1,27 @@
-1
+Q.1- Create a list with user defined inputs. 
 >>> a=['robben','messi','ronaldo','10','20']
 >>> a	  
 ['robben', 'messi', 'ronaldo', '10', '20']
 
-2
+ Q.2- Add the following list to above created list:[‘google’,’apple’,’facebook’,’microsoft’,’tesla’]
+
 z=['google','apple','facebook','microsoft','tesla']
  a.append(z)	  
 >>> a	  
 ['robben', 'messi', 'ronaldo', '10', '20', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
 
-3
+Q.3 - Count the number of time an object occurs in a list.
 >>> len(a)	  
 6
 
-4
+
+Q.4 - create a list with numbers and sort it in ascending order.
 >>> b=['32','34','2','12','45']	  
 >>> b.sort()	  
 >>> b	  
 ['12', '2', '32', '34', '45']
 
-5
+5 - Given are two one-dimensional arrays A and B which are sorted in ascending order. Write a program to merge them into a single sorted array C that contains every item from arrays A and B, in ascending order. [List] 
 >>> s=['1','2','5','6']	  
 >>> t=['3','4','7','9']	 
 >>> z=s=t 
@@ -29,7 +31,7 @@ z=['google','apple','facebook','microsoft','tesla']
 >>> z	  
 ['1', '2', '3', '4', '5', '6', '7', '9']
 
-6
+Q.6 - Count even and odd numbers in that list. 
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9] 
 countodd = 0
 counteven = 0
@@ -45,7 +47,7 @@ Number of even numbers : 4
 Number of odd numbers : 5 
 
 TUPLES
-1
+Q.1-Print a tuple in reverse order. 
 >>> a	  
 ['robben', 'messi', 'ronaldo', '10', '20', ['google', 'apple', 'facebook', 'microsoft', 'tesla']]
 >>> a.reverse()	  
@@ -53,7 +55,7 @@ TUPLES
 [['google', 'apple', 'facebook', 'microsoft', 'tesla'], '20', '10', 'ronaldo', 'messi', 'robben']
 >>> 
 
-2
+Q.2-Find largest and smallest elements of a tuples
 >>> b		  
 ['12', '2', '32', '34', '45']
 >>> 	  
@@ -63,13 +65,13 @@ TUPLES
 '45'
 
 STRINGS
-1
+Q.1- Convert a string to uppercase.
 >>> r="messi"
 >>> r.upper()
 	  
 'MESSI'
 
-2
+Q.2- Print true if the string contains all numeric characters. 
 >>> a
 	  
 [['google', 'apple', 'facebook', 'microsoft', 'tesla'], '20', '10', 'ronaldo', 'messi', 'robben']
@@ -81,7 +83,7 @@ r=['messi']
 	  
 True
 
-3
+Q.3- Replace the word "World" with your name in the string "Hello World".
 x=["Hello World"]
 x.replace("World","Shukal")
 x
