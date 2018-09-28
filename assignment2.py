@@ -45,7 +45,7 @@ fess=5000
 Find the area of circle pi = 3.14 Take radius as input from userPrint the area of circle
 
 print("enter the radius of circle")
-radius=int(input())
+radius=float(input())
 print(radius)
 ans=3.14*(radius*radius)
 print(ans)
