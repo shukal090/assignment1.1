@@ -28,13 +28,8 @@ else:
 
 #Q.5- Make a deepcopy of a list and write the difference between shallow copy and deep copy.
 
-import copy
-
-old_list = [[1, 1, 1], [2, 2, 2], [3, 3, 3]]
-new_list = copy.copy(old_list)
-
-old_list[1][1] = 'AA'
-
-print("Old list:", old_list)
-print("New list:", new_list)  
+x=[23,45,56]
+y=x.copy()
+print("original list x",x, "id=",id(x))
+print("shallow copy list y",y, "id=",id(y))
 
