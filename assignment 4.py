@@ -14,9 +14,8 @@ for i in s:
         print(i,end=',')
 
 #Q.3- Split the user input on comma's and store the values in a list as integers.
-
-x=input("Pep Guardiola is Best Football Manager")
-print(x.split(','))
+x=list(map(int,input("enter no of elements").split(",")))
+print(x)
 
 #Q.4- Check whether a string is palindromic or not.
 
