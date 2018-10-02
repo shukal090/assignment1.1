@@ -99,7 +99,7 @@ while True:
 #Q.3- Create a list of integer elements by user input. Make a new list which will store square of elements of previous list. 
 m = list(map(int,input().split()))
 m_square = []
-for i in l:
+for i in m:
     m_square.append(i**2)
 print(m_square)
 
