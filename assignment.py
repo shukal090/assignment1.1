@@ -96,6 +96,59 @@ print(sum)
 while True:
     print("infinite")
 
+#Q.3- Create a list of integer elements by user input. Make a new list which will store square of elements of previous list. 
+m = list(map(int,input().split()))
+m_square = []
+for i in l:
+    m_square.append(i**2)
+print(m_square)
 
+#Q.4- From a list containing ints, strings and floats, make three lists to store them separately 
+n = ["hello",1,2,3.6,8.9,"world"]
+n_int = []
+n_float = []
+n_string = []
+for i in n:
+    if type(i)==int:
+        n_int.append(i)
+    elif type(i)==float:
+        n_float.append(i)
+    else:
+        n_string.append(i)
+print(n_int)
+print(n_float)
+print(n_string)
+
+#Q.5- Using range(1,101), make a list containing only prime numbers
+num = []
+for i in range(1,101):
+    flag = False
+    for j in range(2,i):
+        if i%j==0:
+            flag = True
+    if not flag:
+        num.append(i)
+print(num)
+
+#Q.6- Print the following patterns:
+*
+**
+***
+****
+
+n = 6
+for i in range(1,6):
+    print(" "*n+"* "*i)
+    n-= 1
     
+#Q.7- Take inputs from user to make a list. Again take one input from user and search it in the list and delete that element, if found. Iterate over list using for loop.     
+
+
+l = list(map(int,input("Enter list elements: ").split()))
+element = int(input("Enter the element to search: "))
+if element in l:
+    print("Element found")
+    del l[l.index(element)]
+print(l)
+
     
