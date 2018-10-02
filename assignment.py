@@ -104,7 +104,7 @@ for i in l:
 print(m_square)
 
 #Q.4- From a list containing ints, strings and floats, make three lists to store them separately 
-n = ["hello",1,2,3.6,8.9,"world"]
+n = ["messi",1,2,3.2,8.4,"ronaldo"]
 n_int = []
 n_float = []
 n_string = []
