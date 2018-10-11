@@ -1,0 +1,17 @@
+#Q.1- Write a Python program to read n lines of a file
+f=open("C:\\python\\student.text","r")
+print(f.readline())
+
+#Q.2- Write a Python program to count the frequency of words in a file.
+
+
+#Q.3- Write a Python program to copy the contents of a file to another file
+fo=open("C:\\python\\student.txt",'r')
+str1=fo.read()
+fo.close()
+fo=open("C:\\python\\student2.txt",'w')
+fo.write(str1)
+fo.close()
+print("well done")
+
+#
