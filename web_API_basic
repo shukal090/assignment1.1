@@ -1,0 +1,7 @@
+>>> import requests
+r
+>>> response=requests.get("https://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=jsonp&jsonp=?")
+print
+>>> print(response.content)
+b'?({"quoteText":"He who is contented is rich.  ", "quoteAuthor":"Lao Tzu ", "senderName":"", "senderLink":"", "quoteLink":"http://forismatic.com/en/89ace4179e/"})'
+>>> 
