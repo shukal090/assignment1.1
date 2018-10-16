@@ -3,7 +3,11 @@ f=open("C:\\python\\student.text","r")
 print(f.readline())
 
 #Q.2- Write a Python program to count the frequency of words in a file.
+from collections import Counter
 
+with open("hello.txt") as f:
+    wordcount = Counter(f.read().split())
+    print(wordcount)
 
 #Q.3- Write a Python program to copy the contents of a file to another file
 fo=open("C:\\python\\student.txt",'r')
@@ -14,4 +18,23 @@ fo.write(str1)
 fo.close()
 print("well done")
 
-#
+#Q.4- Write a Python program to combine each line from first file with the corresponding line in second file.
+with open('student.txt') as fh1, open('class.txt') as fh2:
+    for line1, line2 in zip(fh1, fh2):
+        print(line1+line2)
+#Q.5- Write a Python program to write 10 random numbers into a file. Read the file and then sort the numbers and then store it to another file.
+import random
+with open("random1.txt","w+") as f:
+    for i in range(10):
+        f.write(str(random.randint(0,9)))
+        f.write("\n")
+with open("random1.txt") as f1,open("random2.txt","w+") as f2:
+    l = []
+    for line in f1:
+        l.append(int(line.strip("\n")))
+    l = sorted(l)
+    for i in l:
+        f2.write(str(i)+"\n")
+with open("random2.txt") as f:
+    for i in f:
+        print(i.strip("\n"))
