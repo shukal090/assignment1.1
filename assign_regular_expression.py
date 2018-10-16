@@ -1,5 +1,8 @@
 #Q.1- Write a python code to find a valid email address from a text
-
+import re
+addresses = re.findall(r'[\w\.-]+@[\w\.-]+', "shukal.jain090@yify.com")
+for address in addresses: 
+    print(address)
 
 
 
